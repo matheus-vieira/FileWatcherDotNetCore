@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Watcher", "Watcher\Watcher.csproj", "{720DFA49-14AD-4E24-8081-548A68321046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{3A2DA167-CF62-4309-A7B8-BD8C4875F43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{720DFA49-14AD-4E24-8081-548A68321046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720DFA49-14AD-4E24-8081-548A68321046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720DFA49-14AD-4E24-8081-548A68321046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720DFA49-14AD-4E24-8081-548A68321046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2DA167-CF62-4309-A7B8-BD8C4875F43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2DA167-CF62-4309-A7B8-BD8C4875F43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2DA167-CF62-4309-A7B8-BD8C4875F43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2DA167-CF62-4309-A7B8-BD8C4875F43A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC77853-66A6-4684-87E3-54A729337340}
+	EndGlobalSection
+EndGlobal
