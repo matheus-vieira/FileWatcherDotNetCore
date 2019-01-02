@@ -19,7 +19,7 @@
             if (string.IsNullOrWhiteSpace(zipName))
                 throw new System.ArgumentNullException(nameof(zipName));
 
-            _zipFileName = zipName;
+            _zipFileName = _zipFileName ?? zipName;
         }
 
         ~Compress()

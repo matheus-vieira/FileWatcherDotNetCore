@@ -6,7 +6,7 @@ namespace Watcher
     {
         public static void AddFileWatcher(this IServiceCollection serviceCollection)
         {
-            serviceCollection.AddHostedService<FileWatcher>();
+            //serviceCollection.AddTransient<IFileWatcher, FileWatcher>();
         }
     }
 }
